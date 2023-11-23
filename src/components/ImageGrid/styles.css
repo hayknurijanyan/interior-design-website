@@ -1,0 +1,17 @@
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 12px;
+}
+
+.square-img {
+  width: 100%;
+  height: auto;
+  /* aspect-ratio: 1/1; */
+}
+
+.wide-img {
+  width: 100%;
+  height: auto;
+  grid-column: 1 / span 2;
+}

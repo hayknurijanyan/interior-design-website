@@ -1,0 +1,9 @@
+.paragraph-details {
+  display: flex;
+  color: #9c9c9c;
+  margin-top: 40px;
+}
+
+.paragraph-details-date {
+  margin-right: 34px;
+}
